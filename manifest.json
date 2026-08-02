@@ -1,0 +1,105 @@
+{
+  "id": ".",
+  "name": "ریسپیز - M Ijaz GHS 124/NB",
+  "short_name": "ریسپیز",
+  "description": "پاکستانی کھانوں، بیکری آئٹمز اور مٹھائیوں کی 140 ریسپیز پر مشتمل آف لائن ریسپی بک — M Ijaz، GHS 124/NB",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1B1410",
+  "theme_color": "#1B1410",
+  "dir": "rtl",
+  "lang": "ur",
+  "categories": ["food", "lifestyle", "education"],
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "پسندیدہ ریسپیز",
+      "short_name": "پسندیدہ",
+      "description": "اپنی محفوظ کردہ پسندیدہ ریسپیز دیکھیں",
+      "url": ".?view=favorites",
+      "icons": [
+        { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "بیکری ریسپیز",
+      "short_name": "بیکری",
+      "description": "کیک، کوکیز اور بیکری آئٹمز",
+      "url": ".?cat=بیکری",
+      "icons": [
+        { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "چکن ریسپیز",
+      "short_name": "چکن",
+      "description": "چکن سے بنی ریسپیز",
+      "url": ".?cat=چکن",
+      "icons": [
+        { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot-narrow-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ریسپیز کی فہرست — موبائل ویو"
+    },
+    {
+      "src": "screenshots/screenshot-wide-1.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ریسپیز کی فہرست — ڈیسک ٹاپ ویو"
+    }
+  ],
+  "icons": [
+    {
+      "src": "icons/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
