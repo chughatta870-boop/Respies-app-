@@ -239,9 +239,24 @@
 
   // ---------------- Init ----------------
 
+  function applyLaunchParams() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var view = params.get("view");
+      var cat = params.get("cat");
+      if (view === "favorites") {
+        state.showFavOnly = true;
+      } else if (cat && CATEGORIES.indexOf(cat) !== -1) {
+        state.cat = cat;
+      }
+    } catch (e) { /* URLSearchParams unsupported — ignore, default view applies */ }
+  }
+
   function init() {
+    applyLaunchParams();
     buildTabs();
     updateFavCount();
+    highlightTabs();
     render();
 
     if ("serviceWorker" in navigator) {
@@ -255,3 +270,4 @@
 
   init();
 })();
+ 
